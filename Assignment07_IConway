@@ -17,9 +17,17 @@ Inline Table-Valued and Multi-Statement Table-Valued.
 
 ## Explain are the differences between Scalar, Inline, and Multi-Statement Functions
 
+A Scalar UDF returns a single value as a result of actions performed by the function.
+Scalar UDFs can accept 0 to several input parameters and will return a single value. 
+A Scalar UDF returns one of the scalar data types (int, char, varchar, etc), however 
+the text, ntext, image and timestamp data types are not supported.
 
+The inline table-valued UDF returns a table variable as a result of actions completed
+by the function. The inline table value function
 
 ## Conclusion
 
 
 ## References
+
+https://excelkingdom.blogspot.com/2018/01/how-to-create-scalar-inline-and-multi.html
