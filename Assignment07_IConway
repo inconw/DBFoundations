@@ -11,7 +11,11 @@ In this module we learned how to use SQL Functions to retrieve information from 
 
 ## Explain when you would use a SQL UDF
 
-In the context of SQL, UDF stands for 'User-Defined Function'. There are three types of UDFs in SQL server: Scalare, 
+UDF stands for 'User-Defined Function'. In addition to built-in SQL functions, users can create
+their own custom functions called UDFs. There are essentially two types of UDFs: ones that return
+a table of values and ones that return a single value.
+
+There are three types of UDFs in SQL server: Scalar, 
 Inline Table-Valued and Multi-Statement Table-Valued.
 
 
