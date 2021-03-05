@@ -1,26 +1,30 @@
 # Assignment 07 - Functions
 ## Ingrid Conway
-## 
+## Randal Root
 ### IT FDN 130 A
 ### 03 March 2021
+
+Link to GitHub location:  https://github.com/inconw/DBFoundations/blob/main/Assignment07_IConway
+
 
 ## Introduction
 
 In this module we learned how to use SQL Functions to retrieve information from a database. 
+In this document we start by discussing why users make User-Defined Functions (UDFs) in SQL. Next,
+we compare and contrast Scalar, Inline, and Multi-Statement Functions.
 
-For the database portion of the assignment, we 
+
+For the database portion of the assignment, we started by using built-functions to retrieve
+specified information from our database. We also got more practice executing Views, and for 
+the last portion we constructed our very own UDF.
 
 
 ## Explain when you would use a SQL UDF
 
 UDF stands for 'User-Defined Function'. In addition to built-in SQL functions, users can create
 their own custom functions called UDFs. There are essentially two types of UDFs: ones that return
-a table of values and ones that return a single value.
-
-There are three types of UDFs in SQL server: Scalar, 
-Inline Table-Valued and Multi-Statement Table-Valued.
-
-
+a table of values and ones that return a single value. Among these, there are three types of UDFs 
+in SQL server: Scalar, Inline Table-Valued and Multi-Statement Table-Valued.
 
 
 ## Explain are the differences between Scalar, Inline, and Multi-Statement Functions
@@ -30,14 +34,20 @@ Scalar UDFs can accept 0 to several input parameters and will return a single va
 A Scalar UDF returns one of the scalar data types (int, char, varchar, etc), however 
 the text, ntext, image and timestamp data types are not supported.
 
-The inline table-valued UDF returns a table variable as a result of actions completed
-by the function. The inline table value function
-
-A Multi-Statement Function also returns returns a table of data, but requires a little additional processing. 
+On the other hand, an inline table-valued UDF returns a table variable as a result of actions completed
+by the function. A Multi-Statement Function also returns returns a table of data, but requires a little 
+additional processing. 
 
 ## Conclusion
+In module 07 we continued our work with SQL Views, but also moved on to include functions. We 
+use built-in SQL functions to perform essential tasks (and some more complex) with the database.
+Users can also customize their own functions by creating a UDF.
 
 
 ## References
 
-https://excelkingdom.blogspot.com/2018/01/how-to-create-scalar-inline-and-multi.html
+1. How to create scalar, inline and multi-statement table valued user defined functions in SQL server. 
+  2018. from https://excelkingdom.blogspot.com/2018/01/how-to-create-scalar-inline-and-multi.html .
+
+2. Brown A. Inline and multi-statement table-valued functions. 2013. 
+  from https://www.wiseowl.co.uk/blog/s347/table-valued-functions.htm .
