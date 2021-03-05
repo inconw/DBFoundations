@@ -2,11 +2,13 @@
 ## Ingrid Conway
 ## 
 ### IT FDN 130 A
-### 
+### 03 March 2021
 
 ## Introduction
 
-In this module we learned how to use SQL Functions to retrieve information from a database.
+In this module we learned how to use SQL Functions to retrieve information from a database. 
+
+For the database portion of the assignment, we 
 
 
 ## Explain when you would use a SQL UDF
@@ -30,6 +32,8 @@ the text, ntext, image and timestamp data types are not supported.
 
 The inline table-valued UDF returns a table variable as a result of actions completed
 by the function. The inline table value function
+
+A Multi-Statement Function also returns returns a table of data, but requires a little additional processing. 
 
 ## Conclusion
 
